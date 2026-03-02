@@ -40,11 +40,6 @@ class CmsContentWidgetProductSearchConnectorDependencyProvider extends AbstractB
         return $container;
     }
 
-    /**
-     * @param \Spryker\Yves\Kernel\Container $container
-     *
-     * @return \Spryker\Yves\Kernel\Container
-     */
     protected function addProductClient(Container $container): Container
     {
         $container->set(static::CLIENT_PRODUCT, function (Container $container) {
@@ -56,11 +51,6 @@ class CmsContentWidgetProductSearchConnectorDependencyProvider extends AbstractB
         return $container;
     }
 
-    /**
-     * @param \Spryker\Yves\Kernel\Container $container
-     *
-     * @return \Spryker\Yves\Kernel\Container
-     */
     protected function addSearchClient(Container $container): Container
     {
         $container->set(static::CLIENT_SEARCH, function (Container $container) {

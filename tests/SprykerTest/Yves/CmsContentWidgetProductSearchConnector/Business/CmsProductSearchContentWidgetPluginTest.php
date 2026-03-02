@@ -24,9 +24,6 @@ use Spryker\Yves\CmsContentWidgetProductSearchConnector\Plugin\CmsProductSearchC
  */
 class CmsProductSearchContentWidgetPluginTest extends Unit
 {
-    /**
-     * @return void
-     */
     public function testCmsProductSearchContentWidgetPluginCreated(): void
     {
         $plugin = new CmsProductSearchContentWidgetPlugin(
