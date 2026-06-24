@@ -12,6 +12,8 @@ use Spryker\Yves\Kernel\AbstractBundleConfig;
 class CmsContentWidgetProductSearchConnectorConfig extends AbstractBundleConfig
 {
     /**
+     * @api
+     *
      * @var int
      */
     public const SEARCH_LIMIT = 8;
